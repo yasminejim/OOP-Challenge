@@ -15,3 +15,21 @@ ReactDOM.render(
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
+
+
+
+
+class Pokemon{
+constructor(name, type, attack){
+
+  this.name = name,
+  this.type = type,
+  this.attack = attack
+}
+}
+const pickachu = new Pokemon("Pickachu", "Electric", "Thunderbolt");
+const raichu = new Pokemon("Raichu", "Electric", "Volt Switch")
+
+console.log(pickachu(`${this.name} used ${this.attack}`));
+console.log(raichu(`${this.name} used ${this.attack}`));
+
